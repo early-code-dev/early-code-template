@@ -25,19 +25,19 @@
       text-align: center;
     }
     p {
-      display: block;
-      text-align: center;
-      max-width: 250px;
-      padding-left: 250px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      /* max-width: 250px; */
     }
   </style>
   <body>
     <nav>
       <ul>
-        <li><a href="default.asp">Home</a></li>
-        <li><a href="news.asp">News</a></li>
-        <li><a href="contact.asp">Contact</a></li>
-        <li><a href="about.asp">About</a></li>
+        <li><a href="#productsServices">Products/services</a></li>
+        <li><a href="#delivery">Delivery</a></li>
+        <li><a href="#myStory">My Story</a></li>
+        <li><a href="#contact">Contact Me</a></li>
       </ul>
     </nav>
     <br />
@@ -48,7 +48,7 @@
     </header>
     <main>
       <article>
-        <h1>State the Target Wish</h1>
+        <h1 id="wish">State the Target Wish</h1>
         <p>
           What wish that people are making. Describe the people that are making
           this wish. What core need(s) are the motivation behind people making
@@ -59,7 +59,7 @@
           src="https://images.pexels.com/photos/1476321/pexels-photo-1476321.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
           alt=""
         />
-        <h1>Grant the Target Wish</h1>
+        <h1 id="productsServices">Grant the Target Wish</h1>
         <p>
           How does your business grant peoples' wishes? What products or
           services does your business offer to grant peoples' wishes? How does
@@ -67,7 +67,7 @@
         </p>
       </article>
       <section>
-        <h1>Personalize the Target Wish</h1>
+        <h1 id="delivery">Personalize the Target Wish</h1>
         <img src="./src/location-pin3.png" alt="Delivery Method #1" />
         <h3>Delivery Method #1</h3>
         <p>
@@ -88,7 +88,7 @@
         </p>
       </section>
       <aside>
-        <h1>My Entrepreneurship Story</h1>
+        <h1 id="myStory">My Entrepreneurship Story</h1>
         <img
           src="https://images.pexels.com/photos/756453/pexels-photo-756453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
           alt="Student Picture"
@@ -108,7 +108,7 @@
         </p>
       </aside>
       <footer>
-        <h1>Get in Touch</h1>
+        <h1 id="contact">Get in Touch</h1>
         <p>Send me a message and I'll get back to you soon</p>
         <form>
           <input
