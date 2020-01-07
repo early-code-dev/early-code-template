@@ -14,12 +14,21 @@
       display: inline;
       margin: 0;
       padding: 0;
+      /* border: 1px solid black; */
     }
     header {
-      background-color: grey;
+      color: lightseagreen;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+      background-image: url(https://images.pexels.com/photos/589840/pexels-photo-589840.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+      background-size: cover;
       height: 30vh;
       text-align: left;
       padding: 10px;
+    }
+    header > button {
+      background-color: white;
+      color: black;
+      font-weight: bold;
     }
     main {
       text-align: center;
@@ -30,6 +39,30 @@
       justify-content: center;
       margin-left: 30%;
       margin-right: 30%;
+    }
+    article > img {
+      height: 45vh;
+      width: 50vw;
+    }
+    input {
+      margin: 10px;
+      padding: 15px;
+      box-sizing: border-box;
+    }
+    form > input[type="text"] {
+      width: 90%;
+    }
+    form > input[type="number"] {
+      width: 90%;
+    }
+    textarea {
+      width: 90%;
+    }
+    form > button {
+      height: 35px;
+      width: 90px;
+      background-color: skyblue;
+      color: darkslategray;
     }
   </style>
   <body>
@@ -43,49 +76,53 @@
     </nav>
     <br />
     <header>
-      <h1>Website Template</h1>
-      <h3>Mission of business or organization</h3>
+      <h1>Special Moments Photography Studio</h1>
+      <h3>I help people relive special moments by taking beautiful pictures</h3>
       <button>Get in Touch</button>
     </header>
     <main>
       <article>
-        <h1 id="wish">State the Target Wish</h1>
+        <h1 id="wish">People Want to Relive Special Moments</h1>
         <p>
-          What wish that people are making. Describe the people that are making
-          this wish. What core need(s) are the motivation behind people making
-          this wish? Why is it important that these people have their wishes
-          granted
+          People wish they could relive special moments. Everyone is busy and
+          many times, people forget to take pictures of moments they want to
+          remember or dont't have the proper equipment. As a result, people
+          forget special moments and feel sad when they cannot remember. People
+          need a great photography service to capture special moments for them
+          to remember forever.
         </p>
         <img
-          src="https://images.pexels.com/photos/1476321/pexels-photo-1476321.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+          src="https://images.pexels.com/photos/1257110/pexels-photo-1257110.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
           alt=""
         />
-        <h1 id="productsServices">Grant the Target Wish</h1>
+        <h1 id="productsServices">We Help People Relive Special Moments</h1>
         <p>
-          How does your business grant peoples' wishes? What products or
-          services does your business offer to grant peoples' wishes? How does
-          your business satisfy the core needs of people making these wishes?
+          Special Moments Photography helps people relive special moments by
+          taking beautiful pictures. We offer personal photoshoots, business
+          headshots, special events, family photos, and more. You can hire Nija
+          to take beautiful pictures of your special moments so you can relive
+          them again and again.
         </p>
       </article>
       <section>
-        <h1 id="delivery">Personalize the Target Wish</h1>
+        <h1 id="delivery">Relive Your Special Moments</h1>
         <img src="./src/location-pin3.png" alt="Delivery Method #1" />
-        <h3>Delivery Method #1</h3>
+        <h3>On-Site Photography</h3>
         <p>
-          Describe Method #1 of how you will deliver your products or services
-          to people
+          I can meet you at the location that you would like your pictures taken
+          at.
         </p>
         <img src="./src/building1.png" alt="Delivery Method #2" />
-        <h3>Delivey Method #2</h3>
+        <h3>Visit My School Studio</h3>
         <p>
-          Describe Method #2 of how you will deliver your products or services
-          to people
+          If you go to my school, we can do the photoshoot before or after
+          school.
         </p>
         <img src="./src/paper-plane1.png" alt="Delivery Method #3" />
-        <h3>Delivery Method #3</h3>
+        <h3>Delivery</h3>
         <p>
-          Describe Method #3 of how you will deliver your products or services
-          to people
+          I will deliver your pictures to you by sending them through email
+          within one week.
         </p>
       </section>
       <aside>
@@ -95,17 +132,15 @@
           alt="Student Picture"
         />
         <p>
-          Write a brief history about yourslef. Talk about how old you are,
-          where you were born and what passions and interests you have. You can
-          also talk about your family, and people who have had an influence on
-          you so far.
+          My name is Nija and I am 14 years old. I was born in Lubbock, Texas
+          and have lived here my whole life. I like being outside, taking
+          pictures, and hanging out with my friends at school.
         </p>
         <p>
-          Talk about what made you passionate about becoming an entrepreneur and
-          starting a business or organization to help solve the problem that you
-          choose. Write what you hope will happen as a result of your work and
-          why it matters to you, your family, school, city, country, and the
-          world.
+          I first became interested in photography because of Instagram. I
+          decided to start Nija's Photography because people need pictures in
+          order to relive special moments. One day, I want to make enough money
+          with my business to travel and take pictures all over the world.
         </p>
       </aside>
       <footer>
